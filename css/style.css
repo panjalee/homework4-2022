@@ -86,6 +86,9 @@ a:visited{
         left: 0;
     } 
 
+    .nav_links{
+        flex-direction: row;
+    }
 }
 
 @media screen and (prefers-reduced-motion: reduce){
@@ -106,13 +109,18 @@ a:visited{
     header{
         flex-direction: column;
     }
+
+    nav{
+        width: 100%;
+    }
+    
     .nav_links{
-        flex-direction: row;
+        flex-direction: row; 
         justify-content: space-around;
     }
 
     .pricing{
-        align-content: end;
+        align-items: end;
         flex-wrap: nowrap; 
     }
 
